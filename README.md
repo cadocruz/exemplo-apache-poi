@@ -4,3 +4,7 @@ Projeto exemplo de leitura e escrita em arquivo de template do word.
 ## JDK 1.7
 ## Apache POI
 
+## Instalação
+
+`gradle clean build`
+
