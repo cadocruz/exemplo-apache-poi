@@ -17,7 +17,8 @@ public class WordTemplate {
         FileInputStream in = new FileInputStream(file);
         WordTemplate w = new WordTemplate();
         Map<String, String> properties = new HashMap<>();
-        properties.put("valor_total", "200.000,00");
+        properties.put("#valor_parcela#", "12.000,00");
+        properties.put("#valor_total#", "200.000,00");
         XWPFDocument document = w.extractTemplate(in, properties);
         FileOutputStream os = new FileOutputStream("src/main/resources/teste.docx");
         document.write(os);
