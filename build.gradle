@@ -16,7 +16,6 @@ repositories {
 }
 
 dependencies {
-    //compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
     compile group: 'org.apache.poi', name: 'poi', version: '3.12'
     compile group: 'org.apache.poi', name: 'poi-ooxml', version: '3.12'
     compile group: 'org.apache.poi', name: 'poi-scratchpad', version: '3.12'
